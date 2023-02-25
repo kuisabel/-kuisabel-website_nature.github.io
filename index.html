@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website of nature.</title>
+
+    <!--CSS Style Sheets-->
+    <link rel="stylesheet" type="text/css" href="nature_reset.css" />
+    <link rel="stylesheet" type="text/css" href="nature_stylesheet.css" />
+
+    <!--Javascript-->
+    <script type="text/javascript" src="main.js" defer></script>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="primary-header">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a class="nature-logo" href="#home"><img src="images/logo.svg" alt="Nature Logo"/></a>
+
+          <button
+            class="mobile-nav-toggle"
+            aria-controls="primary-navigation"
+            aria-expanded="false"
+          >
+            <img
+              class="icon-hamburger"
+              src="images/icon-hamburger.svg"
+              alt=""
+              aria-hidden="true"
+            />
+            <img
+              class="icon-close"
+              src="images/icon-close.svg"
+              alt=""
+              aria-hidden="true"
+            />
+            <span class="visually-hidden">Menü</span>
+          </button>
+
+          <nav class="primary-navigation" id="primary-navigation">
+            <ul aria-label="Primary" role="list" class="fw-medium nav-list">
+              <il><a href="#home">Home</a></il>
+              <il><a href="#about-us">Über uns</a></il>
+              <il><a href="#projects">Projekte</a></il>
+              <il><a href="#donate">Spenden</a></il>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="background">
+        <section id="home" class="hero margin-basis">
+          <div class="hero-text">
+            <h1 class="fw-bold">
+              <br>Unsere Welt.</br>Deine Entscheidung.
+            </h1>
+            <p class="fw-regular">
+              Unser Ziel ist Aufklärung und Handlungsanstöße für einen
+              nachhaltigen Lebensstil zu fördern und die Umweltauswirkungen
+              menschlicher Aktivitäten zu minimieren.
+            </p>
+          </div>
+
+          <div class="hero-btn">
+          <button class="fw-medium hero-btn-text">Entdecke mehr</button>
+          </div>
+        </section>
+      </div>
+
+      <section id="about-us" class="about-us" class="margin-basis">
+
+        <img
+        class="image-about-us"
+        src="images/img_about_us.jpg" srcset="images/img_about_us@2x.jpg"
+        alt="Rundes Bild mit protestierenden Menschen in Schwarz-Weiß"
+      />
+
+        <div class="about-us-text">
+        <h2 class="fw-bold">Über uns</h2>
+        <p class="fw-regular">
+          Wir sind eine Non-Profit-Organisation, die sich für den Schutz unserer
+          Umwelt einsetzt. Unser Ziel ist es, das Bewusstsein für nachhaltige
+          Lebensweisen zu schärfen und die Auswirkungen menschlicher Aktivitäten
+          auf die Umwelt zu minimieren. Durch Bildungs- und
+          Informationskampagnen, praktische Projekte und politische
+          Advocacy-Arbeit arbeiten wir daran, eine positive Veränderung zu
+          bewirken und zukünftigen Generationen eine gesunde Umwelt zu
+          hinterlassen. Werden Sie Teil unserer Bewegung und unterstützen Sie
+          uns bei unserem Engagement für eine bessere Zukunft.
+        </p>
+        </div>
+      </section>
+
+      <section id="projects" class="projects-newsletter">
+        <h2 class="fw-bold">Aktuelle Projekte</h2>
+
+         <div class="grid">
+        <article class="project-card">
+          <img
+            class="img-project"
+            src="images/img_biodiversity.jpg" srcset="images/img_biodiversity@2x.jpg"
+            alt="Verschiedene Wildblumen aus der Froschperspektive"
+          />
+          <div class="project-info">
+            <h3 class="fw-black">Schutz der Biodiversität</h3>
+            <p class="fw-regular">
+              Durch den Klimawandel, den Verlust natürlicher Lebensräume und die
+              Übernutzung von Ressourcen gehen immer mehr Tierarten verloren.
+              Doch warum ist der Schutz der Biodiversität so wichtig?
+            </p>
+            <a class="discover-more-text" href="#">Mehr erfahren..</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img
+            class="img-project"
+            src="images/img_ocean.jpg" srcset="images/img_ocean@2x.jpg"
+            alt="Ozean aus der Vogelperspektive"
+          />
+          <div class="project-info">
+            <h3 class="fw-black">Saubere Gewässer</h3>
+            <p class="fw-regular">
+              Sauber und gesunde Gewässer sehr sind wichtig für die Umwelt. Leider
+              sind viele Gewässer durch Verschmutzung, Übernutzung und den
+              Verlust von natürlichen Lebensräumen in Gefahr.
+            </p>
+            <a class="discover-more-text" href="#">Mehr erfahren..</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img
+            class="img-project"
+            src="images/img_energy.jpg" srcset="images/img_energy@2x.jpg"
+            alt="Mehrere Windräder auf einer weiten Landschaft"
+          />
+          <div class="project-info">
+            <h3 class="fw-black">Erneuerbare Energien</h3>
+            <p class="fw-regular">
+              Erneuerbare Energien ist von Bedeutung, um den Klimawandel zu
+              bekämpfen und eine nachhaltige Zukunft zu sichern. Leider sind
+              viele Regionen immer noch von fossilen Brennstoffen abhängig.
+            </p>
+
+            <a class="discover-more-text" href="#">Mehr erfahren..</a>
+          </div>
+        </article>
+        </div>
+
+        <div class="section-newsletter">
+          <p class="fw-bold newsletter-info">
+            Erhalten Sie immer aktuelle Infos über Kampagnen und Aktionen:
+          </p>
+          <button class="fw-medium subscribe_newsletter_btn">
+            <span>Newsletter abonnieren</span>
+          </button>
+        </div>
+        </section>
+
+      <section id="donate" class="section-donation">
+        <div class="donations-container">
+          <div class="flex-donation">
+           <img src="images/img_donate.jpg" src="images/img_donate@2x.jpg" alt="Aus der Hand fallende Muscheln an einem Sandstrand">
+           <div class="flex-donation-text">
+           <h2 class="fw-bold">Ihr Beitrag zum Klimaschutz</h2>
+           <p class="fw-regular">
+           Seien Sie ein Teil des Wandels und unterstützen Sie uns bei unserem
+           Engagement für eine nachhaltigere Zukunft. Als Non-Profit-Organisation
+           sind wir auf Spenden angewiesen, um unsere Arbeit fortzusetzen und
+           größere Veränderungen zu bewirken.
+           </p>
+          </div>
+         </div>
+      </div>
+
+      <div class="donate_btn">
+       <button class="fw-medium"><span>Jetzt spenden</span></button>
+      </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="social-media">
+        <p class="fw-regular">Folge uns auf:</p>
+
+        <ul class="icons" role="list" aria-label="Social Media Verknüpfungen">
+          <li><a aria-label="facebook" href="#"><svg width="28" height="50" viewBox="0 0 28 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22.3724 9.08799L27.1129 9.21119V0.584434L20.0879 0.337891C13.4859 0.337891 8.1339 5.68989 8.1339 12.292V19.9332H0V29.1763H8.1339V49.2657H18.3628V29.1763H25.6339L27.1129 19.9332H18.3628V13.0976C18.3628 10.8832 20.1579 9.08799 22.3724 9.08799Z" fill="white"/>
+            </svg></a></li>
+          <li><a aria-label="instagram" href="#"><svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M36.3381 50.2968H15.1158C7.09997 50.2968 0.578613 43.7754 0.578613 35.7595V14.5372C0.578613 6.52138 7.09997 0 15.1158 0H36.3381C44.354 0 50.8754 6.52138 50.8754 14.5372V35.7595C50.8754 43.7754 44.354 50.2968 36.3381 50.2968ZM15.1158 5.06005C9.89013 5.06005 5.63877 9.31142 5.63877 14.5372V35.7595C5.63877 40.9853 9.89013 45.2366 15.1158 45.2366H36.3381C41.5638 45.2366 45.8152 40.9853 45.8152 35.7595V14.5372C45.8152 9.31142 41.5638 5.06005 36.3381 5.06005H15.1158Z" fill="white"/>
+            <path d="M25.7272 37.8782C18.7081 37.8782 12.9976 32.1678 12.9976 25.1487C12.9976 18.1294 18.7081 12.4189 25.7272 12.4189C32.7464 12.4189 38.4569 18.1294 38.4569 25.1487C38.4569 32.1678 32.7464 37.8782 25.7272 37.8782ZM25.7272 16.6472C21.0396 16.6472 17.2259 20.4609 17.2259 25.1487C17.2259 29.8363 21.0396 33.65 25.7272 33.65C30.4148 33.65 34.2286 29.8363 34.2286 25.1487C34.2286 20.4609 30.4148 16.6472 25.7272 16.6472Z" fill="white"/>
+            <path d="M41.6735 11.7867C41.6735 13.4253 40.345 14.7536 38.7065 14.7536C37.0679 14.7536 35.7395 13.4253 35.7395 11.7867C35.7395 10.1481 37.0679 8.81982 38.7065 8.81982C40.345 8.81982 41.6735 10.1481 41.6735 11.7867Z" fill="white"/>
+            </svg></a></li>
+          <li><a aria-label="twitter" href="#"><svg width="50" height="41" viewBox="0 0 50 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24.2933 12.8171C11.7833 12.5003 3.31133 2.28652 3.31133 2.28652C3.31133 2.28652 -1.00389 10.4814 6.35959 15.7665C6.35959 15.7665 4.3218 15.9446 2.05486 14.6382C2.05486 14.6382 1.17357 22.2393 9.84344 24.6542C9.84344 24.6542 9.26937 25.2877 5.60748 24.9907C5.60748 24.9907 7.39886 31.7109 14.8812 31.9187C14.8812 31.9187 10.2789 36.8772 0.243164 36.3428C0.243164 36.3428 16.1578 47.1209 33.0386 35.3841C38.7676 31.4009 45.5829 20.4584 44.6419 10.4418C44.6419 10.4418 47.7298 8.46231 49.5707 5.23588C49.5707 5.23588 48.2439 5.78114 46.8667 6.17399C45.7266 6.49926 44.552 6.68274 44.0678 6.70066C44.0678 6.70066 47.8487 4.08773 48.2643 1.15815C48.2643 1.15815 44.1368 3.40267 41.9788 3.56583L41.9044 3.57061C40.0358 1.58924 37.3862 0.352539 34.4479 0.352539C28.7883 0.352539 24.2003 4.94047 24.2003 10.6001C24.2003 11.3615 24.2832 12.1034 24.4407 12.8174L24.2933 12.8171Z" fill="white"/>
+            </svg></a></li>
+          <li><a aria-label="youtube" href="#"><svg width="50" height="34" viewBox="0 0 50 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M47.0578 2.95458C45.3713 0.806588 42.3226 0.343905 38.777 0.23079C32.4969 0.0304483 25.4635 0.0281913 24.9061 0.0283241C24.3488 0.0281913 17.3152 0.0304483 11.0352 0.23079C7.48965 0.343905 4.44099 0.806588 2.75449 2.95458C0.156972 6.2628 0.597349 16.8392 0.597349 16.8392C0.597349 16.8392 0.156839 27.4155 2.75436 30.7237C4.44099 32.8718 7.48965 33.3344 11.0352 33.4475C17.3152 33.6478 24.3488 33.6502 24.906 33.6501C25.4633 33.6502 32.4969 33.6478 38.777 33.4475C42.3225 33.3344 45.3711 32.8718 47.0578 30.7237C49.6553 27.4155 49.2149 16.8392 49.2149 16.8392C49.2149 16.8392 49.6553 6.2628 47.0578 2.95458ZM20.103 24.2088V9.72609L32.7523 16.9675L20.103 24.2088Z" fill="white"/>
+            </svg></a></li>
+        </ul>
+      </div>
+
+      <nav class="footer-nav">
+        <ul class="fw-regular" aria-label="Footer" role="list">
+          <li><a href="#">Karriere</a></li>
+          <li><a href="#">Engagieren</a></li>
+          <li><a href="#donate">Spenden</a></li>
+        </ul>
+
+        <ul class="fw-regular" aria-label="Footer" role="list">
+          <li><a href="#">Kontakt</a></li>
+          <li><a href="#">Impressum</a></li>
+          <li><a href="#">Datenschutz</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
